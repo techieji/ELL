@@ -1,4 +1,5 @@
-para: cmd+ "\n"+
+start: para+ "Done."
+para: cmd+ "\n"
 cmd: imp
     | clause
 
