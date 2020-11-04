@@ -1,0 +1,8 @@
+start: sentence+
+sentence: WORD+ "."
+
+clause_start: "if" -> if
+    "otherwise" -> otherwise
+
+%import common.WORD
+%ignore " "
