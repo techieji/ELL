@@ -1,0 +1,9 @@
+para: cmd+ "\n"+
+cmd: imp
+    | clause
+
+imp: WORD+ "."
+clause: WORD+ "," WORD+ [";" clause] "."
+
+%import common.WORD                             -> WORD
+%ignore " "
